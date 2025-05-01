@@ -2,7 +2,7 @@
 $db_server = "localhost";
 $db_user = "root";
 $db_password = "Vcnm1H&w";
-$db_name = "room_rover";
+$db_name = "room_match";
 
 
 
