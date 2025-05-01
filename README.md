@@ -1,4 +1,6 @@
 # RoomRover 🏠🤝
+**Innovating Student Living at Ashesi University**
+# SoftwareEngineering
 
 ## Project Overview
 RoomRover is a web application designed to revolutionize roommate pairing at Ashesi University, providing a smart, interactive platform for students to find compatible roommates.
@@ -65,7 +67,3 @@ RoomRover is a web application designed to revolutionize roommate pairing at Ash
 
 ## 📄 License
 MIT License
-
----
-**Innovating Student Living at Ashesi University**
-# SoftwareEngineering
