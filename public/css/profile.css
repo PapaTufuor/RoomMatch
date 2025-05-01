@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: white;
+    color: #923d41;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the whole body */
+    overflow: auto; /* Prevent overflow caused by the box shadow */
+}
+
+.sidebar {
+    width: 220px;
+    color: #923d41;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: none;
+    margin-top: 2.5%; /* Remove box shadow from the sidebar */
+}
+
+.sidebar a {
+    color: #923d41;
+    text-decoration: none;
+    padding: 15px 0;
+    display: flex; /* Make it flex to align icon and text */
+    align-items: center; /* Center the icon vertically */
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.sidebar a i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.sidebar a:hover {
+    background: #ddd;
+    padding-left: 10px;
+}
+
+.sidebar .logout {
+    padding: 15px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the main content */
+    border-radius: 10px; /* Rounded corners for main content */
+    background: #fff; /* Background color for main content */
+    margin-left: -30px; /* Align main content with the first sidebar item */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.student-details {
+    border-radius: 10px;
+}
+
+.student-details .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.details div {
+    display: flex;
+    justify-content: space-between; /* Spread items evenly within the container */
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.details div span, .details div a {
+    flex: 2; /* Each child will take an equal amount of space */
+    font-size: 16px;
+
+}
+
+.i{
+    flex: 2; /* Each child will take an equal amount of space */
+    font-size: 16px;
+    font-weight: 200;
+    color: #666;
+
+}
+
+
+
+.details div span {
+    margin-right: -40%; /* Optional: Add margin to create space between columns */
+}
+
+.details div a {
+    color: #923d41;
+    text-decoration: none;
+    text-align: right; /* Ensure links align to the right */
+}
+
+.details div a:hover {
+    text-decoration: underline;
+}
