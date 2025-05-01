@@ -1,9 +1,9 @@
-# RoomRover 🏠🤝
+# RoomMatch 🏠🤝
 **Innovating Student Living at Ashesi University**
 # SoftwareEngineering
 
 ## Project Overview
-RoomRover is a web application designed to revolutionize roommate pairing at Ashesi University, providing a smart, interactive platform for students to find compatible roommates.
+RoomMatch is a web application designed to revolutionize roommate pairing at Ashesi University, providing a smart, interactive platform for students to find compatible roommates.
 
 ## 🚀 Key Features
 - Intelligent Roommate Matching
@@ -26,10 +26,9 @@ RoomRover is a web application designed to revolutionize roommate pairing at Ash
 - Comprehensive Hostel Information
 
 ## 👥 Contributors
-- Clifford Nti Nkansah (@kwakuNti)
-- @Kootin-Sanwu
-- @Joseph-Lartey
-- @buzbunny
+- Joel Anang
+- Kwamena Duker
+- Papa Nhyira Tufuor
 
 ## 🌈 Matching Criteria
 - Noise Preference
@@ -58,12 +57,4 @@ RoomRover is a web application designed to revolutionize roommate pairing at Ash
 4. Messaging System
 5. Hostel Visualization
 
-## 📋 Project Roadmap
-- [x] User Authentication
-- [x] Preference Matching System
-- [x] Messaging Infrastructure
-- [ ] Advanced AI Suggestions
-- [ ] Comprehensive Hostel Mapping
 
-## 📄 License
-MIT License
