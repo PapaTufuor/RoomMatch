@@ -65,8 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'cliffco24@gmail.com';
-        $mail->Password = 'nzqo jtlf kuau xtus';
+        $mail->Username = 'nhyiratufuor12@gmail.com';
+        $mail->Password = 'nwir hcbk rung ompx';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
@@ -77,7 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'Your new password';
-        $mail->Body = 'Dear user,<br><br>Your new password is: ' . $generated_password . '<br><br>Thank you for using our services.<br>Best regards,<br>RoomMatch';
+        $mail->Body = 'Dear user,<br><br>Your new password is: ' . $generated_password . '<br><br>Thank you.<br>Best regards,<br>RoomMatch';
 
         // Send the email
         $mail->send();
