@@ -1,8 +1,8 @@
--- Database: room_rover
 
-DROP DATABASE IF EXISTS room_rover;
-CREATE DATABASE room_rover;
-USE room_rover;
+
+DROP DATABASE IF EXISTS room_match;
+CREATE DATABASE room_match;
+USE room_match;
 
 -- Users table to store user information
 CREATE TABLE Users (
