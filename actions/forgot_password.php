@@ -71,13 +71,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('cliffco24@gmail.com', 'RoomRover');
+        $mail->setFrom('nhyiratufuor12@gmail.com', 'RoomMatch');
         $mail->addAddress($email);
 
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'Your new password';
-        $mail->Body = 'Dear user,<br><br>Your new password is: ' . $generated_password . '<br><br>Thank you for using our services.<br>Best regards,<br>RoomRover';
+        $mail->Body = 'Dear user,<br><br>Your new password is: ' . $generated_password . '<br><br>Thank you for using our services.<br>Best regards,<br>RoomMatch';
 
         // Send the email
         $mail->send();
