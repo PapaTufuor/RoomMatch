@@ -1,7 +1,7 @@
 <?php
 $db_server = "localhost";
 $db_user = "root";
-$db_password = "Vcnm1H&w";
+$db_password = "";
 $db_name = "room_match";
 
 
