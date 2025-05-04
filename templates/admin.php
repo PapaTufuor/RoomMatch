@@ -35,7 +35,7 @@ $conn->close();
 	
 	<!-- SIDEBAR -->
 	<section id="sidebar">
-		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> Roomrover</a>
+		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> RoomMatch</a>
 		<ul class="side-menu">
 			<li><a href="admin.php" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
 			<li class="divider" data-text="main">Main</li>
