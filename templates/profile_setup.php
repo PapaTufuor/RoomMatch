@@ -22,9 +22,9 @@
         }
 
         function validateForm() {
-            var firstName = document.forms["profileForm"]["FirstName"].value;
-            var lastName = document.forms["profileForm"]["LastName"].value;
-            var dateOfBirth = document.forms["profileForm"]["DateOfBirth"].value;
+            var firstName = document.forms["profileForm"]["First Name"].value;
+            var lastName = document.forms["profileForm"]["Last Name"].value;
+            var dateOfBirth = document.forms["profileForm"]["Date Of Birth"].value;
             var gender = document.forms["profileForm"]["Gender"].value;
             var phoneNumber = document.forms["profileForm"]["PhoneNumber"].value;
             var imageUpload = document.forms["profileForm"]["imageUpload"].value;
